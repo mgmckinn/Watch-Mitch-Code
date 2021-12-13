@@ -87,28 +87,50 @@ font-size: 35px;
 }.headshot{width: 400px;
     margin: 0px 300px 0px 600px;}
 
-.image1 {
-width: 800px;
-margin: 0px 0px 300px 550px;
-padding: 5px;
-}
+.run-buddy {width: 1000px;
+    margin: 0px 0px 30px 55px;
+     padding: 5px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;}
+.moving-forward{width: 300px;
+    margin: 0px 0px 30px 55px;
+    padding: 5px;}
+
+.headshot{width: 300px;
+        margin: 0px 0px 30px 55px;
+        padding: 5px;}
+        
+.calc {width: 700px;
+        margin: 0px 0px 30px 55px;
+         padding: 5px;;display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 50%;}
+
+.bz-flag{width: 700px;
+    margin: 0px 0px 30px 55px;
+    padding: 5px;display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
 
 
 
-
-.my-story {
-font-size: 30;
+.my-story p {
+font-size: 30px;
 font-weight: bolder;
 color: midnightblue;
-text-shadow: 5px 5px 5px 5px blue;
+text-shadow: 5px 5px 5px 5px;
 font-size: 50px;
 text-align: left;
-
 padding-right: 30px;
 }
 
 .moving-forward img {
-    width: 40px;height: 20px;
+    width: 40px;
+    height: 20px;
     }
 .my-story p {
 font-size: 30px;
