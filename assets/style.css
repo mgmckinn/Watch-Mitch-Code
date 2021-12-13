@@ -84,23 +84,25 @@ h4 {
 text-align: center;
 color: blue;
 font-size: 35px;
-}.headshot{width: 400px;
-    margin: 0px 300px 0px 600px;}
+}
 
-.run-buddy {width: 1000px;
+.run-buddy {
     margin: 0px 0px 30px 55px;
-     padding: 5px;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
-     width: 50%;}
-.moving-forward{width: 300px;
-    margin: 0px 0px 30px 55px;
-    padding: 5px;}
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;}
 
-.headshot{width: 300px;
-        margin: 0px 0px 30px 55px;
-        padding: 5px;}
+
+.headshot{width: 700px;
+    margin: 0px 0px 30px 55px;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;}
+
         
 .calc {width: 700px;
         margin: 0px 0px 30px 55px;
@@ -118,20 +120,26 @@ font-size: 35px;
 
 
 
-.my-story p {
+ p {
 font-size: 30px;
 font-weight: bolder;
 color: midnightblue;
 text-shadow: 5px 5px 5px 5px;
-font-size: 50px;
-text-align: left;
+font-size: 30px;
+text-align: center;
 padding-right: 30px;
 }
 
-.moving-forward img {
-    width: 40px;
-    height: 20px;
-    }
+.moving-forward {
+    width: 70p0x;
+    margin: 0px 0px 30px 55px;
+    padding: 5px;display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;}
+
+
+
 .my-story p {
 font-size: 30px;
 color:blue;
@@ -172,32 +180,24 @@ padding: 16px;
 text-decoration: none;
 }
 
-.right {
-padding: 20px;
-width: 50%;
-float: right;
-}
 
-.left {
-width: 50%;
-float: left;
-padding: 20px;
-}footer{
-    padding:40px 0;
+#footer{position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+  }color:#4b4c4d;}
+        
 
-    color:#4b4c4d;
-  }
   
   footer ul {
-    padding:0;
-    list-style:none;
-    text-align:right;
-    font-size:18px;}
+  margin: 0px 0px 30px 55px;
+  padding: 5px;display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;}
 
-.flexbox{display: flex;
-        flex-wrap: wrap;}
  .flexbox div {
         background-color: #f1f1f1;
-        margin: 10px;
+        margin: 20px;
         padding: 20px;
         font-size: 30px;}
