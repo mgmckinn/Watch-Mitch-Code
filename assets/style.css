@@ -19,7 +19,7 @@ background: size 0px;
 background-attachment: fixed;
 background-position: 80%;
 z-index: index 9999;
-mask-repeat: no-repeat733
+mask-repeat: no-repeat733;padding-top: 50px;
 
 }
 
@@ -32,7 +32,7 @@ font-weight: bold;
 header h2 {
 font-size: 40px;
 color: green;
-text-align: center;
+text-align: center;padding-top: 300px;
 }
 
 .myButton {
@@ -53,14 +53,7 @@ position: relative;
 top: 1px;
 }
 
-.jsec{ width: 70px;
-    margin: 0px 0px 30px 55px;
-    padding: 5px;
-    display: inline-flexbox;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    align-items:inherit;}
+
 
 
 header nav {
@@ -127,10 +120,9 @@ padding-right: 30px;
 .moving-forward {
     width: 70px;
     margin: 0px 0px 0px 0px;
-    padding: 5px;display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;}
+    width: 75%;padding-bottom: 400px;}
 
 .run-buddy {width: 70px;
 margin: 0px 0px 30px 55px;
@@ -182,18 +174,17 @@ text-decoration: none;
 }
 
 
-.footer{position:fixed;
+footer{
     bottom: 0;
     width: 100%;
-               /* Footer height */
-  color:#4b4c4d;
+    color:midnightblue;
 size: 40px;}
         
 
   
   footer ul {
     background-image: url(./images/background-challenge\ 2.jpeg);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Times New Roman', Times, serif;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -201,13 +192,14 @@ size: 40px;}
     background-attachment: fixed;
     background-position: 100%;
     z-index: index 9999;
-    mask-repeat: no-repeat733;font-size: 25px;}
+    font-size: 30px;padding-bottom: 70px;}
     
- .flexbox div {
-        background-color: #f1f1f1;
+ .flexbox{
         margin: 20px;
         padding: 20px;
         font-size: 30px;}
-.footer h3{font-size: 25px;
-        }
+footer h3{font-size: 50px;
+    text-align: left;
+    color: midnightblue;
+        }.headshot{padding-left: 300px;padding-top: 100px;}
     
