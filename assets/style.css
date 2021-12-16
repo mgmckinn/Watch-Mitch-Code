@@ -181,8 +181,7 @@ footer{
 size: 40px;}
         
 
-  
-  footer ul {
+   footer ul {
     background-image: url(./images/background-challenge\ 2.jpeg);
     font-family:'Times New Roman', Times, serif;
     display: flex;
@@ -194,12 +193,13 @@ size: 40px;}
     z-index: index 9999;
     font-size: 30px;padding-bottom: 70px;}
     
- .flexbox{
+.flexbox{
         margin: 20px;
         padding: 20px;
         font-size: 30px;}
 footer h3{font-size: 50px;
     text-align: left;
     color: midnightblue;
-        }.headshot{padding-left: 300px;padding-top: 100px;}
+        }
+.headshot{padding-left: 250px;padding-top: 100px;}
     
