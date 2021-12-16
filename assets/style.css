@@ -15,7 +15,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-background: size 50px;
+background: size 0px;
 background-attachment: fixed;
 background-position: 80%;
 z-index: index 9999;
@@ -36,21 +36,12 @@ text-align: center;
 }
 
 .myButton {
-box-shadow: green;
-background: linear-gradient(to bottom, #ffec64 75%, green, 100%);
-background-color: yellow;
-border-radius: 6px;
-border: 1px solid green;
-display: flexbox;
-cursor: pointer;
-color: blue;
-font-family: Arial;
-font-size: 15px;
-font-weight: bold;
-padding: 6px 24px;
-text-decoration: none;
-text-shadow: 0px 1px 0px #ffee66;
-}
+        color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 6px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-variant-east-asian: normal; font-variant-position: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+.myButton:hover {
+        background: #1C6EA4; }
+        .myButton:active {
+        background: #144E75; }
+
 
 .myButton:hover {
 background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
@@ -62,6 +53,14 @@ position: relative;
 top: 1px;
 }
 
+.jsec{ width: 70px;
+    margin: 0px 0px 30px 55px;
+    padding: 5px;
+    display: inline-flexbox;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-items:inherit;}
 
 
 header nav {
@@ -86,22 +85,17 @@ color: blue;
 font-size: 35px;
 }
 
-.run-buddy {
-    margin: 0px 0px 30px 55px;
+.story-photo img {
+   
     padding: 5px;
-    display: block;
+    display: flexbox;
+    flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;}
+    width: 30%;}
 
 
-.headshot{width: 700px;
-    margin: 0px 0px 30px 55px;
-    padding: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;}
+
 
         
 .calc {width: 700px;
@@ -131,13 +125,20 @@ padding-right: 30px;
 }
 
 .moving-forward {
-    width: 70p0x;
-    margin: 0px 0px 30px 55px;
+    width: 70px;
+    margin: 0px 0px 0px 0px;
     padding: 5px;display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;}
+    width: 75%;}
 
+.run-buddy {width: 70px;
+margin: 0px 0px 30px 55px;
+padding: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 75%;}
 
 
 .my-story p {
@@ -181,23 +182,32 @@ text-decoration: none;
 }
 
 
-#footer{position: absolute;
+.footer{position:fixed;
     bottom: 0;
     width: 100%;
-    height: 2.5rem;            /* Footer height */
-  }color:#4b4c4d;}
+               /* Footer height */
+  color:#4b4c4d;
+size: 40px;}
         
 
   
   footer ul {
-  margin: 0px 0px 30px 55px;
-  padding: 5px;display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;}
-
+    background-image: url(./images/background-challenge\ 2.jpeg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: size 0px;
+    background-attachment: fixed;
+    background-position: 100%;
+    z-index: index 9999;
+    mask-repeat: no-repeat733;font-size: 25px;}
+    
  .flexbox div {
         background-color: #f1f1f1;
         margin: 20px;
         padding: 20px;
         font-size: 30px;}
+.footer h3{font-size: 25px;
+        }
+    
